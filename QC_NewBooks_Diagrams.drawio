@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4" pages="2">
   <diagram name="Part A — Flowchart." id="O-do0RKC-Ha9BLbqAL9F">
-    <mxGraphModel dx="1218" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,10 +12,10 @@
             <mxPoint x="320" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#5EC775;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="270" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="User Clicks &quot;Post Entry&quot;" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#AF1919;fontColor=#ffffff;" value="User Clicks &quot;Post Entry&quot;" vertex="1">
           <mxGeometry height="50" width="130" x="255" y="220" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-32" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="If0rHoMY9-7hZ6QjuBIh-47">
@@ -28,7 +28,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Are All Fields Filled In?" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#572719;fontColor=#ffffff;" value="Are All Fields Filled In?" vertex="1">
           <mxGeometry height="90" width="141.25" x="248.75" y="310" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-14" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="If0rHoMY9-7hZ6QjuBIh-13">
@@ -42,7 +42,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-47" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="Error: Missing Fields" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-47" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#5EC775;fontColor=#ffffff;" value="Error: Missing Fields" vertex="1">
           <mxGeometry height="60" width="120.31" x="260" y="480" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-68" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="If0rHoMY9-7hZ6QjuBIh-67" value="">
@@ -53,7 +53,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-63" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Is the Amount Greater Than Zero?" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-63" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#57370E;fontColor=#ffffff;" value="Is the Amount Greater Than Zero?" vertex="1">
           <mxGeometry height="90" width="140" x="500" y="310" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-64" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="If0rHoMY9-7hZ6QjuBIh-63">
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-67" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="Error: Invalid Amout" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-67" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#5EC775;fontColor=#ffffff;" value="Error: Invalid Amout" vertex="1">
           <mxGeometry height="60" width="120.31" x="509.85" y="480" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-76" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="If0rHoMY9-7hZ6QjuBIh-85">
@@ -90,7 +90,7 @@
             <mxPoint x="800" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-73" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Do Total Debits Equal Total Credits?" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-73" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#AF1919;fontColor=#ffffff;" value="&lt;font&gt;Do Total Debits Equal Total Credits?&lt;/font&gt;" vertex="1">
           <mxGeometry height="90" width="140" x="730" y="310" as="geometry" />
         </mxCell>
         <mxCell id="If0rHoMY9-7hZ6QjuBIh-74" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="If0rHoMY9-7hZ6QjuBIh-73">
@@ -110,16 +110,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-82" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="Error: Out of Balance" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-82" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#e51400;strokeColor=#5EC775;fontColor=#ffffff;" value="Error: Out of Balance" vertex="1">
           <mxGeometry height="60" width="120.31" x="739.84" y="470" as="geometry" />
         </mxCell>
         <mxCell id="dFoFJM2TaJrZZkUiODHb-1" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="If0rHoMY9-7hZ6QjuBIh-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-85" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Save Entry to Datebase" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-85" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#008a00;strokeColor=#AF1919;fontColor=#ffffff;" value="Save Entry to Datebase" vertex="1">
           <mxGeometry height="60" width="120.31" x="990" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="If0rHoMY9-7hZ6QjuBIh-86" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Clear Form &amp;amp; Refresh Register&amp;nbsp;" vertex="1">
+        <mxCell id="If0rHoMY9-7hZ6QjuBIh-86" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillStyle=auto;fillColor=#008a00;strokeColor=#AF1919;fontColor=#ffffff;" value="Clear Form &amp;amp; Refresh Register&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120.31" x="1155" y="325" as="geometry" />
         </mxCell>
         <mxCell id="dFoFJM2TaJrZZkUiODHb-4" edge="1" parent="1" source="dFoFJM2TaJrZZkUiODHb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="If0rHoMY9-7hZ6QjuBIh-9">
@@ -135,13 +135,13 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dFoFJM2TaJrZZkUiODHb-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="Post Another Entry?" vertex="1">
+        <mxCell id="dFoFJM2TaJrZZkUiODHb-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#008a00;strokeColor=#AF1919;fontColor=#ffffff;" value="Post Another Entry?" vertex="1">
           <mxGeometry height="90" width="140" x="1320" y="310" as="geometry" />
         </mxCell>
         <mxCell id="dFoFJM2TaJrZZkUiODHb-3" edge="1" parent="1" source="If0rHoMY9-7hZ6QjuBIh-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="dFoFJM2TaJrZZkUiODHb-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dFoFJM2TaJrZZkUiODHb-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;END&lt;/font&gt;" vertex="1">
+        <mxCell id="dFoFJM2TaJrZZkUiODHb-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#67AB9F;" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;END&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="1340" y="460" as="geometry" />
         </mxCell>
         <mxCell id="dFoFJM2TaJrZZkUiODHb-7" edge="1" parent="1" source="dFoFJM2TaJrZZkUiODHb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="dFoFJM2TaJrZZkUiODHb-6">
