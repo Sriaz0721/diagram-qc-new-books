@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Part A — Flowchart" id="bpgPLxG5lejYgeA2d7Jb">
-    <mxGraphModel dx="1323" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="781" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,14 @@
         </mxCell>
         <mxCell id="10qtUn_RJULm3SicdFZy-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;b&gt;Are All Fields In?&lt;/b&gt;" vertex="1">
           <mxGeometry height="90" width="112.5" x="50" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="10qtUn_RJULm3SicdFZy-73" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="10qtUn_RJULm3SicdFZy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="14" y="495" />
+              <mxPoint x="14" y="225" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="10qtUn_RJULm3SicdFZy-9" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="&lt;b&gt;Error: Missing Fields&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="145" x="40" y="470" as="geometry" />
@@ -41,10 +49,22 @@
         <mxCell id="10qtUn_RJULm3SicdFZy-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;b&gt;Do Total Debits Equal Total Credits?&lt;/b&gt;" vertex="1">
           <mxGeometry height="90" width="112.5" x="430" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="10qtUn_RJULm3SicdFZy-15" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="&lt;b&gt;Error: Missing Fields&lt;/b&gt;" vertex="1">
+        <mxCell id="10qtUn_RJULm3SicdFZy-71" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="10qtUn_RJULm3SicdFZy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10qtUn_RJULm3SicdFZy-15" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="&lt;b&gt;Error: Invalid Amount&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="90" x="251.25" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="10qtUn_RJULm3SicdFZy-16" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="&lt;b&gt;Error: Missing Fields&lt;/b&gt;" vertex="1">
+        <mxCell id="10qtUn_RJULm3SicdFZy-75" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="10qtUn_RJULm3SicdFZy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="570" />
+              <mxPoint x="14" y="570" />
+              <mxPoint x="14" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10qtUn_RJULm3SicdFZy-16" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="&lt;b&gt;Error: Out Of Balance&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="92.5" x="440" y="470" as="geometry" />
         </mxCell>
         <mxCell id="10qtUn_RJULm3SicdFZy-58" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="10qtUn_RJULm3SicdFZy-19">
@@ -92,14 +112,6 @@
         <mxCell id="10qtUn_RJULm3SicdFZy-42" connectable="0" parent="10qtUn_RJULm3SicdFZy-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;No&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4396" y="2" as="geometry">
             <mxPoint x="-18" y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10qtUn_RJULm3SicdFZy-32" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="10qtUn_RJULm3SicdFZy-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="20" y="485" />
-              <mxPoint x="20" y="110" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="10qtUn_RJULm3SicdFZy-34" edge="1" parent="1" source="10qtUn_RJULm3SicdFZy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" target="10qtUn_RJULm3SicdFZy-23">
